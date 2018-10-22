@@ -25,3 +25,8 @@ Host someinternalhost
 
 Теперь подключиться к хосту someinternalhost можно короткой коммандой:
 `ssh someinternalhost`
+
+Подключение к pritunl через OpenVPN:
+`openvpn --config cloud-bastion.ovpn`
+
+URL with SSL Cert: https://35.204.36.139.xip.io
